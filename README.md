@@ -40,8 +40,6 @@ Y por supuesto primeros pasos en electrónica, os dejo una serie de links sobre 
 
 
 
-# ex00 
-
 ## ✅ Proyecto 1:
 
 ## Semáforo Básico con Botón (Tinkercad)
