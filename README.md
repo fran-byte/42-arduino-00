@@ -2,7 +2,9 @@
 
 # ex00 
 
-✅ Proyecto 1: Semáforo Básico con Botón (Tinkercad)
+## ✅ Proyecto 1:
+
+## Semáforo Básico con Botón (Tinkercad)
 
 Nivel: principiante
 Formato: sin clases, lógica en loop() y funciones
@@ -41,7 +43,9 @@ Práctica de estructuras condicionales (if) y lógica secuencial.
 
 ---
 
-✅ Proyecto 2: Termómetro con Alarma y Umbral Ajustable (Tinkercad)
+## ✅ Proyecto 2:
+
+## Termómetro con Alarma y Umbral Ajustable (Tinkercad)
 
 Nivel: principiante–intermedio
 Formato: sin clases, funciones separadas
@@ -86,7 +90,9 @@ Estructura del programa clara y segmentada en funciones: leerTemperatura(), leer
 
 ---
 
-✅ Proyecto 3: Detector de Luz Dual (con hardware real en Protoboard o simulador avanzado)
+## ✅ Proyecto 3:
+
+## Detector de Luz Dual (con hardware real en Protoboard o simulador avanzado)
 
 Nivel: intermedio
 Formato: funciones + lógica más compleja
