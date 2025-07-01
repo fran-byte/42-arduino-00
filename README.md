@@ -35,7 +35,8 @@ Y por supuesto primeros pasos en electrónica, os dejo una serie de links sobre 
 5. **Guardar y compartir**:
    - Guarda tu proyecto para futuras referencias o compártelo con otros usuarios.
 
-### Ya estás listo para tu primer proyecto, espero que te pasaras por  links sobre electrónica y arduino 👉  [link](https://github.com/fran-byte/electronica-para-principiantes)
+### Ya estás listo para tu primer proyecto,
+### espero que te pasaras por  links sobre electrónica y arduino 👉  [link](https://github.com/fran-byte/electronica-para-principiantes)
 
 
 
