@@ -1,7 +1,8 @@
 # 42-arduino-00
 
 Antes de empezar vamos ver un sencillo simulador de circuitos **Tinkercard**
-Y por supuesto priemros pasos en electrónica, son una serie de links sobre elctrónica y arduino también :point_right: [link](https://github.com/fran-byte/electronica-para-principiantes)
+
+Y por supuesto primeros pasos en electrónica, os dejo una serie de links sobre elctrónica y arduino :point_right: [link](https://github.com/fran-byte/electronica-para-principiantes)
 
 ### ¿Qué es Tinkercad?
 
