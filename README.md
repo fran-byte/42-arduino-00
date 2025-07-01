@@ -1,5 +1,40 @@
 # 42-arduino-00
 
+Antes de empezar vamos ver un sencillo simulador de circuitos **Tinkercard**
+
+### ¿Qué es Tinkercad?
+
+**Tinkercad** es una herramienta en línea gratuita que permite a los usuarios diseñar y simular circuitos electrónicos y modelos 3D. Es especialmente popular entre los principiantes y educadores por su facilidad de uso y su capacidad para enseñar conceptos básicos de electrónica y diseño.
+
+### Cómo acceder y registrarse en Tinkercad
+
+1. **Acceder a Tinkercad y Registrate**:
+   - Abre tu navegador web y ve a Tinkercad.
+   - Haz clic en el botón "Únete ahora" o "Join Now".
+   - Puedes registrarte usando tu cuenta de Google, Apple, o creando una cuenta nueva con tu correo electrónico.
+   - Sigue las instrucciones para completar el registro.
+
+### Cómo utilizar Tinkercad
+
+1. **Iniciar sesión**:
+   - Una vez registrado, inicia sesión con tus credenciales.
+
+2. **Crear un nuevo proyecto**:
+   - En el panel de control, selecciona "Crear nuevo" y elige entre "Diseño 3D" o "Circuitos".
+
+3. **Diseñar circuitos**:
+   - Si eliges "Circuitos", serás llevado a un área de trabajo donde puedes arrastrar y soltar componentes electrónicos como LEDs, resistencias, botones, y más.
+   - Puedes conectar estos componentes usando cables virtuales y programar microcontroladores como el Arduino.
+
+4. **Simular tu diseño**:
+   - Una vez que hayas configurado tu circuito, puedes simular su funcionamiento haciendo clic en el botón "Iniciar simulación".
+   - Observa cómo se comporta tu circuito y ajusta según sea necesario.
+
+5. **Guardar y compartir**:
+   - Guarda tu proyecto para futuras referencias o compártelo con otros usuarios.
+
+
+
 # ex00 
 
 ## ✅ Proyecto 1:
