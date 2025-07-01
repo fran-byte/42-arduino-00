@@ -55,7 +55,7 @@ Simular un cruce peatonal. El sistema se mantiene en verde para coches, pero si 
 
 3 LEDs (rojo, amarillo, verde)
 
-3 resistencias (220Ω o 330Ω para cada LED)
+3 resistencias limitadoras de corriente (220Ω o 330Ω para cada LED)
 
 1 botón (con resistencia pull-down o usando INPUT_PULLUP)
 
@@ -158,11 +158,11 @@ Arduino Uno, o similar.
 
 Se comparan las dos lecturas analógicas.
 
-Si hay más luz en la izquierda, se enciende el LED izquierdo (o simula movimiento).
+Si hay más luz en la izquierda, se enciende el LED izquierdo (o simula movimiento mediante un motor por ejemplo).
 
 Si hay más en la derecha, se activa el otro.
 
-Si es parejo, ambos apagados (o ambos encendidos).
+Si es parejo, ambos apagados (o ambos encendidos tú decides).
 
 
 ### 🧠 Enfoque educativo:
