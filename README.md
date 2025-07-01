@@ -33,6 +33,7 @@ Antes de empezar vamos ver un sencillo simulador de circuitos **Tinkercard**
 5. **Guardar y compartir**:
    - Guarda tu proyecto para futuras referencias o compártelo con otros usuarios.
 
+### Ya estás listo para tu primer proyecto 
 
 
 # ex00 
