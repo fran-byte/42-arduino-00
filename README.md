@@ -55,6 +55,8 @@ Simular un cruce peatonal. El sistema se mantiene en verde para coches, pero si 
 
 3 LEDs (rojo, amarillo, verde)
 
+3 resistencias (220Ω o 330Ω para cada LED)
+
 1 botón (con resistencia pull-down o usando INPUT_PULLUP)
 
 Arduino Uno, o variantes. 
@@ -97,6 +99,8 @@ Leer temperatura de un sensor (simulado) y activar una alarma (LED/buzzer) si su
 Sensor TMP36 o LM35 (simulado)
 
 LED rojo (alarma)
+
+1 resistencia (220Ω o 330Ω para el LED)
 
 Potenciómetro (para ajustar el umbral)
 
@@ -144,6 +148,8 @@ Un sistema con dos sensores de luz (LDRs) que "decide" hacia dónde girar o ence
 2 LDRs con resistencias (divisor de voltaje)
 
 2 LEDs (simulan motores, por ejemplo)
+
+2 resistencias (220Ω o 330Ω para cada LED)
 
 Arduino Uno, o similar. 
 
