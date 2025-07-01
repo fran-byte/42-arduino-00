@@ -9,11 +9,11 @@
 Nivel: principiante
 Formato: sin clases, lógica en loop() y funciones
 
-💡 Idea:
+### 💡 Idea:
 
 Simular un cruce peatonal. El sistema se mantiene en verde para coches, pero si alguien pulsa el botón, después de un ciclo se cambia a rojo y deja pasar a los peatones.
 
-🧩 Componentes:
+### 🧩 Componentes:
 
 3 LEDs (rojo, amarillo, verde)
 
@@ -22,7 +22,7 @@ Simular un cruce peatonal. El sistema se mantiene en verde para coches, pero si 
 Arduino Uno, o variantes. 
 
 
-🛠️ Funcionalidad:
+### 🛠️ Funcionalidad:
 
 Estado por defecto: luz verde.
 
@@ -31,7 +31,7 @@ Al pulsar el botón: espera 2 segundos, cambia a amarillo por 1 segundo, luego a
 El botón se ignora si ya está en proceso de cambio.
 
 
-🧠 Enfoque educativo:
+### 🧠 Enfoque educativo:
 
 Uso de digitalRead, digitalWrite, delay.
 
@@ -50,11 +50,11 @@ Práctica de estructuras condicionales (if) y lógica secuencial.
 Nivel: principiante–intermedio
 Formato: sin clases, funciones separadas
 
-💡 Idea:
+### 💡 Idea:
 
 Leer temperatura de un sensor (simulado) y activar una alarma (LED/buzzer) si supera cierto valor.
 
-🧩 Componentes:
+### 🧩 Componentes:
 
 Sensor TMP36 o LM35 (simulado)
 
@@ -65,7 +65,7 @@ Potenciómetro (para ajustar el umbral)
 Arduino Uno
 
 
-🛠️ Funcionalidad:
+### 🛠️ Funcionalidad:
 
 Leer temperatura del sensor analógico.
 
@@ -76,7 +76,7 @@ Si la temperatura supera el umbral, se activa el LED.
 Mostrar datos en consola serial (Serial.print).
 
 
-🧠 Enfoque educativo:
+### 🧠 Enfoque educativo:
 
 Introducción a sensores analógicos (analogRead)
 
@@ -97,11 +97,11 @@ Estructura del programa clara y segmentada en funciones: leerTemperatura(), leer
 Nivel: intermedio
 Formato: funciones + lógica más compleja
 
-💡 Idea:
+### 💡 Idea:
 
 Un sistema con dos sensores de luz (LDRs) que "decide" hacia dónde girar o encender LEDs, según cuál detecta más luz.
 
-🧩 Componentes:
+### 🧩 Componentes:
 
 2 LDRs con resistencias (divisor de voltaje)
 
@@ -110,7 +110,7 @@ Un sistema con dos sensores de luz (LDRs) que "decide" hacia dónde girar o ence
 Arduino Uno, o similar. 
 
 
-🛠️ Funcionalidad:
+### 🛠️ Funcionalidad:
 
 Se comparan las dos lecturas analógicas.
 
@@ -121,7 +121,7 @@ Si hay más en la derecha, se activa el otro.
 Si es parejo, ambos apagados (o ambos encendidos).
 
 
-🧠 Enfoque educativo:
+### 🧠 Enfoque educativo:
 
 Introducción al comportamiento reactivo.
 
