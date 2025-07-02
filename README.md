@@ -46,8 +46,8 @@ Y por supuesto, para aquellos que **no tienen conocimientos previos** de electr�
 
 **Este primer ejercicio lo doy resuelto para facilitar el aprendizaje y poder ver tanto diseño del circuito como el codigo en c++ simplificado.**
 
-Nivel: principiante
-Formato: sin clases, lógica en loop() y funciones
+**Nivel**: principiante
+**Formato**: sin clases, lógica en loop() y funciones
 
 ### 💡 Idea:
 
@@ -69,7 +69,7 @@ Arduino Uno, o variantes.
 
 Estado por defecto: luz verde.
 
-Al pulsar el botón: espera 2 segundos, cambia a amarillo por 1 segundo, luego a rojo por 5 segundos, y luego vuelve a verde.
+**Al pulsar el botón**: espera 2 segundos, cambia a amarillo por 1 segundo, luego a rojo por 5 segundos, y luego vuelve a verde.
 
 El botón se ignora si ya está en proceso de cambio.
 
@@ -170,8 +170,8 @@ Práctica de estructuras condicionales (if / case) y lógica secuencial.
 
 ## Termómetro con Alarma y Umbral Ajustable (Tinkercad)
 
-Nivel: principiante–intermedio
-Formato: sin clases, funciones separadas
+**Nivel**: principiante–intermedio
+**Formato**: sin clases, funciones separadas
 
 ### 💡 Idea:
 
@@ -219,8 +219,8 @@ Estructura del programa clara y segmentada en funciones: leerTemperatura(), leer
 
 ## Detector de Luz Dual (con hardware real en Protoboard o simulador avanzado)
 
-Nivel: intermedio
-Formato: funciones + lógica más compleja
+**Nivel**: intermedio
+**Formato**: funciones + lógica más compleja
 
 ### 💡 Idea:
 
