@@ -44,6 +44,8 @@ Y por supuesto, para aquellos que **no tienen conocimientos previos** de electr�
 
 ## Semáforo Básico con Botón (Tinkercad)
 
+**Este primer ejercicio lo doy resuelto para facilitar el aprendizaje y poder ver tanto diseño del circuito como el codigo en c++ simplificado.**
+
 Nivel: principiante
 Formato: sin clases, lógica en loop() y funciones
 
@@ -61,6 +63,7 @@ Simular un cruce peatonal. El sistema se mantiene en verde para coches, pero si 
 
 Arduino Uno, o variantes. 
 
+![traffic_light](Doc/traffic_light.jpg)
 
 ### 🛠️ Funcionalidad:
 
