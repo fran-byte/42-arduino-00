@@ -70,7 +70,7 @@ Arduino Uno, o variantes.
 
 Estado por defecto: luz verde.
 
-**Al pulsar el botón**: espera 2 segundos, cambia a amarillo por 1 segundo, luego a rojo por 5 segundos, y luego vuelve a verde.
+**Al pulsar el botón**: espera 2 segundos, cambia a amarillo por 2 segundos, luego a rojo por 5 segundos, y luego vuelve a verde.
 
 El botón se ignora si ya está en proceso de cambio.
 
