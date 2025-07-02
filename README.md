@@ -47,6 +47,7 @@ Y por supuesto, para aquellos que **no tienen conocimientos previos** de electr�
 **Este primer ejercicio lo doy resuelto para facilitar el aprendizaje y poder ver tanto diseño del circuito como el codigo en c++ simplificado.**
 
 **Nivel**: principiante
+
 **Formato**: sin clases, lógica en loop() y funciones
 
 ### 💡 Idea:
@@ -171,6 +172,7 @@ Práctica de estructuras condicionales (if / case) y lógica secuencial.
 ## Termómetro con Alarma y Umbral Ajustable (Tinkercad)
 
 **Nivel**: principiante–intermedio
+
 **Formato**: sin clases, funciones separadas
 
 ### 💡 Idea:
@@ -220,6 +222,7 @@ Estructura del programa clara y segmentada en funciones: leerTemperatura(), leer
 ## Detector de Luz Dual (con hardware real en Protoboard o simulador avanzado)
 
 **Nivel**: intermedio
+
 **Formato**: funciones + lógica más compleja
 
 ### 💡 Idea:
