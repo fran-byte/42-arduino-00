@@ -73,6 +73,86 @@ Al pulsar el botón: espera 2 segundos, cambia a amarillo por 1 segundo, luego a
 
 El botón se ignora si ya está en proceso de cambio.
 
+### :bookmark_tabs: Code:
+
+
+```cpp
+const int ledVerde = 13;
+const int ledAmarillo = 12;
+const int ledRojo = 11;
+const int boton = 8;
+
+// Estados del semáforo
+enum Estado {
+  VERDE_ON,           // Verde siempre encendido (estado inicial)
+  ESPERAR_2_SEG,      // Espera 2 segundos después del botón
+  AMARILLO_ON,        // Amarillo encendido (2 segundos)
+  ROJO_ON             // Rojo encendido (5 segundos)
+};
+
+Estado estadoActual = VERDE_ON;
+unsigned long tiempoInicio = 0;
+bool botonPresionado = false;
+
+void setup() {
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledAmarillo, OUTPUT);
+  pinMode(ledRojo, OUTPUT);
+  pinMode(boton, INPUT_PULLUP);
+
+  // Estado inicial: Verde ON, otros OFF
+  digitalWrite(ledVerde, HIGH);
+  digitalWrite(ledAmarillo, LOW);
+  digitalWrite(ledRojo, LOW);
+}
+
+void loop() {
+  bool botonLeido = digitalRead(boton);
+
+  // Detectar flanco ascendente (botón presionado)
+  if (botonLeido == HIGH && estadoActual == VERDE_ON) {
+    botonPresionado = true;
+    tiempoInicio = millis();
+    estadoActual = ESPERAR_2_SEG;
+  }
+
+  switch (estadoActual) {
+    case VERDE_ON:
+      // No hacer nada, el verde ya está encendido
+      break;
+
+    case ESPERAR_2_SEG:
+      if (millis() - tiempoInicio >= 2000) {
+        digitalWrite(ledVerde, LOW);      // Apagar verde
+        digitalWrite(ledAmarillo, HIGH);  // Encender amarillo
+        tiempoInicio = millis();
+        estadoActual = AMARILLO_ON;
+      }
+      break;
+
+    case AMARILLO_ON:
+      if (millis() - tiempoInicio >= 2000) {  // 2 segundos en amarillo
+        digitalWrite(ledAmarillo, LOW);      // Apagar amarillo
+        digitalWrite(ledRojo, HIGH);          // Encender rojo
+        tiempoInicio = millis();
+        estadoActual = ROJO_ON;
+      }
+      break;
+
+    case ROJO_ON:
+      if (millis() - tiempoInicio >= 5000) {  // 5 segundos en rojo
+        digitalWrite(ledRojo, LOW);          // Apagar rojo
+        digitalWrite(ledVerde, HIGH);        // Volver a verde ON
+        estadoActual = VERDE_ON;
+        botonPresionado = false;            // Permitir nuevo ciclo
+      }
+      break;
+  }
+
+  delay(10); // Pequeña pausa para evitar rebotes del botón
+}
+```
+
 
 ### 🧠 Enfoque educativo:
 
