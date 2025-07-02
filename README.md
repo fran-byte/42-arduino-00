@@ -160,7 +160,7 @@ Uso de digitalRead, digitalWrite, delay.
 
 Estado controlado por variables (estado, espera).
 
-Práctica de estructuras condicionales (if) y lógica secuencial.
+Práctica de estructuras condicionales (if / case) y lógica secuencial.
 
 
 
